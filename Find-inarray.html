@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kiem tra ky tu co trong mang hay khong</title>
+</head>
+<body>
+
+<script>
+	let xuathien = "false";
+	var dem = 0;
+ 	let array = ["a", "b", "c" ,"d" ,"a", "e", "f", "g" ,"h", "i","k", "l", "m", "n", "o"];
+	let input = prompt("Nhap vao 1 ky tu");
+	for(i=0; i<=14; i++){
+	if( input === array[i]){
+	   dem +=1;
+	   xuathien = "true";
+}
+	else{
+	  xuathien = "false";
+}
+}
+	if(xuathien){
+		alert(input +" xuat hien trong mang " +dem + " lan")
+}
+	else{
+		alert(input +" khong co trong mang")
+}	
+</script>
+</body>
+
+</html>

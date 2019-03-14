@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gia tri nho nhat nhap vao</title>
+</head>
+<body>
+
+<script>
+ 	let a = parseInt(prompt ("Nhap vao so thu nhat"));
+	let b = parseInt(prompt ("Nhap vao so thu hai"));
+	let c = parseInt(prompt ("Nhap vao so thu ba"));
+	function minInput(n1, n2, n3){
+   		if(n1>n2 && n1>n3){
+			alert(n1 + " la so lon nhat");}
+		else if(n2>n1 && n2>n3){
+			alert(n2 + " la so lon nhat");
+			}
+		else{
+			alert(n3 + " la so lon nhat");
+		}
+}
+	minInput(a, b ,c);
+
+</script>
+</body>
+
+</html>
